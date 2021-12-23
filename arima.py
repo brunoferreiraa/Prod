@@ -207,11 +207,6 @@ plot_forecast(forecast, data_train, data_test)
 
 plot_residuals(arima)
 
-# y_pred =  pd.Series(forecast, index=data_test.index)
-# print(y_pred)
-# print(data_test)
-# print(type(y_pred))
-# print(type(data_test))
 print(forecast_accuracy(forecast, data_test))
 
 
